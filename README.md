@@ -49,3 +49,4 @@ Data Analysis Using Power BI
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
 
 
+The Sales Insights Data Analysis project focuses on analyzing sales data to uncover key trends, patterns, and actionable insights to drive business decisions. This project involves cleaning and transforming raw sales data, creating visualizations, and generating dashboards to provide a comprehensive overview of sales performance.
